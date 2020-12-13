@@ -188,7 +188,7 @@ html{
 
 /* Clients Section */
 #client-section{ 
-  background-image:radial-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url('../pic/bg/bg1.jpg');
+  background-image:radial-gradient(rgba(134, 134, 134, 0.4),rgba(131, 131, 131, 0.4)),url('../pic/bg/bg1.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -310,4 +310,8 @@ padding: 1px;
 .shadow{
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+}
+
+.bShadow{
+  box-shadow: inset 20px 20px 25px 5px black, inset -25px -25px 50px 5px black;
 }
