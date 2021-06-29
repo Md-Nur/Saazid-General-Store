@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -185,26 +186,31 @@
   <section id="contact">
     <h1 class="h-primary center shadow">যোগাযোগ</h1>
     <div id="contact-box">
-      <form action="" class="shadow">
+
+      <!-- Contact form  -->
+      <form action="form.php" method="POST" class="shadow">
         <div class="form-group">
           <label for="name"> নামঃ </label>
-          <input type="text" name="name" id="name" placeholder="আপনার নাম দিন">
+          <input type="text" name="nm" id="name" placeholder="আপনার নাম দিন">
         </div>
         <div class="form-group">
           <label for="email"> ই-মেইলঃ </label>
-          <input type="email" name="name" id="email" placeholder="আপনার ই-মেইল দিন">
+          <input type="email" name="em" id="email" placeholder="আপনার ই-মেইল দিন">
         </div>
         <div class="form-group">
           <label for="phone"> মোবাইল নম্বরঃ </label>
-          <input type="phone" name="name" id="phone" placeholder="আপনার ফোন নম্বর দিন">
+          <input type="phone" name="ph" id="phone" placeholder="আপনার ফোন নম্বর দিন">
         </div>
         <div class="form-group">
           <label for="message"> ঠিকানাঃ </label>
-          <textarea name="message" id="message" cols="20" rows="2"></textarea>
+          <textarea name="ad" id="message" cols="20" rows="2"></textarea>
         </div>
         <div class="form-group">
           <label for="message"> কমেন্টঃ </label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <textarea name="txt" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn">
         </div>
       </form>
     </div>
@@ -212,7 +218,8 @@
 
   <footer>
     <h2 class="center">
-      Copyright &copy; https://md-nur.github.io/Practise-4/ . All rights reserved!
+      <!-- https://saazid-general-store.rf.gd/?i=1 -->
+      Copyright &copy; Muhammad Nur . All rights reserved!
     </h2>
     <div id="fitem">
       <div class="ffitem">
