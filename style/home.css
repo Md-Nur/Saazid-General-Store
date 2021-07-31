@@ -212,7 +212,14 @@ html{
 }
 
 
+
+
+
 /* Contact Section */
+
+
+
+
 #contact{
   background-image:radial-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url('../pic/bg/bg.jpg');
   background-size: cover;
@@ -237,7 +244,7 @@ html{
 } 
 
 #contact-box form{
-  width: 40%;
+  width: 50%;
 }
 
 #contact-box label{
@@ -245,6 +252,19 @@ html{
  font-family: 'Hind Siliguri', sans-serif;
 
 }
+
+
+#sbmt{
+  padding: 5px;
+  border: 1px solid white;
+  background-color: #63656b;
+  color: white;
+  /* margin: 17px; */
+  font-size: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
 
 /* footer section */
 
