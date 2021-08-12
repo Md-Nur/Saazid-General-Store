@@ -190,7 +190,7 @@
       <form action="form.php" method="POST" class="shadow">
         <div class="form-group">
           <label for="name"> নামঃ </label>
-          <input type="text" name="nm" id="name" placeholder="আপনার নাম দিন">
+          <input type="text" required name="nm" id="name" placeholder="আপনার নাম দিন">
         </div>
         <div class="form-group">
           <label for="email"> ই-মেইলঃ </label>
@@ -206,7 +206,7 @@
         </div>
         <div class="form-group">
           <label for="message"> কমেন্টঃ </label>
-          <textarea name="txt" id="message" cols="30" rows="10"></textarea>
+          <textarea name="txt" required id="message" cols="30" rows="10"></textarea>
         </div>
         <div class="form-group">
           <input style="width: 100px;" type="submit">
@@ -226,7 +226,7 @@
   <footer>
     <h2 class="center">
       <!-- https://saazid-general-store.rf.gd/?i=1 -->
-      Copyright &copy; Muhammad Nur.<br> All rights reserved!
+      Copyright &copy; Muhammad Nur<br>All rights reserved!
     </h2>
   </footer>
 </body>
